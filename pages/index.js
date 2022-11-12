@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -43,7 +42,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <section className="hero tengah-absolut">
+        <section className="hero tengah">
           {/* <h1 className='putih'>Mapel:</h1> */}
           {/* <h2 className='putih'></h2> */}
           <h1 className='putih'>External Link:</h1>
