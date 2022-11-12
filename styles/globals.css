@@ -1,0 +1,95 @@
+body {
+  background-color: #000000;
+}
+h1 {
+  color: #ffffff;
+  font-family: Share Tech Mono;
+}
+p {
+  color: #ffffff;
+  font-family: Kalam;
+}
+#Typed {
+  font-family: montserrat;
+  font-weight: 600;
+  font-style: italic;
+  color: #ffffff;
+}
+section {
+  padding-top: 4.5rem;
+}
+a {
+  text-decoration: none;
+}
+a:active {
+  color: white;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+.tengah {
+  text-align: center !important;
+  margin: 2rem;
+}
+.tengah-absolut {
+  text-align: center !important;
+  margin-top: 8rem;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.putih {
+  color: white;
+}
+.top-4 {
+  margin-top: 1.5rem !important;
+}
+.bottom-4 {
+  margin-bottom: 1.5rem !important;
+}
+.top-5 {
+  margin-top: 3rem !important;
+}
+.bottom-5 {
+  margin-bottom: 3rem !important;
+}
+.bottom-2 {
+  padding-bottom: 0.5rem !important;
+}
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+h1 {
+  font-size: calc(1.375rem + 1.5vw);
+}
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+h2 {
+  font-size: calc(1.325rem + 0.9vw);
+}
+@media (min-width: 1200px) {
+  ,
+  h2 {
+    font-size: 2rem;
+  }
+}
+h3 {
+  font-size: calc(1.3rem + 0.6vw);
+}
+@media (min-width: 1200px) {
+  h3 {
+    font-size: 1.75rem;
+  }
+}

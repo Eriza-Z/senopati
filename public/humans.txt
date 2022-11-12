@@ -1,0 +1,10 @@
+Web Maker
+	Name: ErZ
+	Instagram: @erizazg
+	From: Kepulauan Riau, Indonesia
+
+Site Information
+	Last update: 09/06/2022 DD-MM-YYYY
+	Language: Indonesia
+	Doctype: HTML5
+	IDE: Visual Studio Code
