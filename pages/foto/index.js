@@ -46,7 +46,7 @@ export default function Home() {
         <section className="hero tengah">
           <h1 className='putih'>Timeline:</h1>
           <h2 className='putih'>
-          
+            26 Oktober 2022<br/>
           </h2>
         </section>
       </main>
