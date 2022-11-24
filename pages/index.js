@@ -1,8 +1,27 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  const el = useRef(null);
+
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["The Best Class", "Are A Family", "The Winner"],
+      typeSpeed: 25,
+      backSpeed: 25,
+      backDelay: 250,
+      loop: true,
+      showCursor: true,
+      cursorChar: "!"
+    });
+    // Destroying
+    return () => {
+      typed.destroy();
+    };
+  }, []);
+
   return (
     <div className={styles.container}>
       <Head>
@@ -43,23 +62,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <section className="hero tengah">
-          <h2 className='putih'>
-          <Link href={'/foto/'}><a>Foto</a></Link><br/>
-          <Link href={'/socmed'}><a>Social Media</a></Link>
-          </h2>
+      <section className="hero tengah-absolut">
+          <h1 className="display-4 animate__animated animate__fadeInUp">Hi, We Are Senopati SMANSA</h1>
+          <h2 className="display-4 animate__animated animate__fadeInDown">We Are <span ref={el} id="Typed"></span></h2>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320"><path fill="#000000" fill-opacity="1" d="M0,288L1440,288L1440,320L0,320Z"></path></svg>
+        </section>
+        <section className="tengah" data-aos="fade-right">
+          <Image></Image>
         </section>
       </main>
-      <footer className={"tengah bottom-2"}>
+      <footer className={"tengah top-5 bottom-2"}>
         <p className="putih">
-          Created 
-          Technology Used:<br/>
-          <span className="tengah-absolut">
-            Framework: <a href="https://nextjs.org" className="putih" target={"_blank"} rel="noreferrer noopenner">NextJS</a>, and <a href="https://reactjs.org" className="putih" target={"_blank"} rel="noreferrer noopenner">ReactJS</a><br/>
-          </span>
-          <span className="tengah-absolut">
-            Text Editor: <a href='https://code.visualstudio.com' target={"_blank"} rel="noreferrer noopenner">Visual Studio Code</a><br/>
-          </span>
+          Still got time? Why don&apos;t you Check other page!<br/>
+          Check our <Link href={'/gallery/'}><a>Gallery</a></Link> and our <Link href={'/socmed'}><a>Social Media</a></Link>
           Hope You All Have A Good Day<br />
         </p>
       </footer>

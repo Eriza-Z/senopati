@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /link/
 
-Sitemap: https://erizazg.my.id/sitemap
+Sitemap: https://senopati.link/sitemap

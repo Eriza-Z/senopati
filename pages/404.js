@@ -48,14 +48,6 @@ export default function Home() {
       </main>
       <footer className={"tengah bottom-2"}>
         <p className="putih">
-          Created 
-          Technology Used:<br/>
-          <span className="tengah-absolut">
-            Framework: <a href="https://nextjs.org" className="putih" target={"_blank"} rel="noreferrer noopenner">NextJS</a>, and <a href="https://reactjs.org" className="putih" target={"_blank"} rel="noreferrer noopenner">ReactJS</a><br/>
-          </span>
-          <span className="tengah-absolut">
-            Text Editor: <a href='https://code.visualstudio.com' target={"_blank"} rel="noreferrer noopenner">Visual Studio Code</a><br/>
-          </span>
           Hope You All Have A Good Day<br />
         </p>
       </footer>
