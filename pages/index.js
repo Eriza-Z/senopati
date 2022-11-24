@@ -74,7 +74,7 @@ export default function Home() {
       <footer className={"tengah top-5 bottom-2"}>
         <p className="putih">
           Still got time? Why don&apos;t you Check other page!<br/>
-          Check our <Link href={'/gallery/'}><a>Gallery</a></Link> and our <Link href={'/socmed'}><a>Social Media</a></Link>
+          Check our {/*<Link href={'/gallery/'}><a>Gallery</a></Link>*/} and our <Link href={'/socmed'}><a>Social Media</a></Link>
           Hope You All Have A Good Day<br />
         </p>
       </footer>
