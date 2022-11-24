@@ -14,7 +14,7 @@ export default function Home() {
         <meta property="og:title" content="Senopati SMANSA" />
         <meta property="og:type" content="website" />
         <meta property="og:description" content="Event yang telah lakukan." />
-        <meta property="og:url" content="https://erizazg.my.id" />
+        <meta property="og:url" content="https://senopati.link/socmed" />
         <meta property="og:image" content="http://raw.githubusercontent.com/Eriza-Z/Eriza-Z.github.io/master/Web/Icon/icon.webp" />
         <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/Eriza-Z/Eriza-Z.github.io/master/Web/Icon/icon.webp" />
         <meta property="og:image:type" content="image/webp" />
@@ -26,7 +26,7 @@ export default function Home() {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@eriza_gracia" />
         <meta name="twitter:creator" content="@eriza_gracia" />
-        <meta name="twitter:url" content="https://senopati.erizazg.my.id" />
+        <meta name="twitter:url" content="https://senopati.link/socmed" />
         <meta name="twitter:title" content="Senopati SMANSA" />
         <meta name="twitter:description" content="Event yang telah lakukan." />
         <meta name="twitter:image" content="https://raw.githubusercontent.com/Eriza-Z/Eriza-Z.github.io/master/Web/Icon/icon.webp" />
@@ -34,7 +34,7 @@ export default function Home() {
         {/* Apple */}
         <link rel="apple-touch-icon" href="../public/apple-touch-icon.png" />
         {/* Canonical */}
-        <link rel="canonical" href="https://senopati.erizazg.my.id" />
+        <link rel="canonical" href="https://senopati.link/socmed" />
         {/* Website Thingy */}
         <title>Socmed - Senopati SMANSA</title>
         <meta name="keywords" content="Senopati SMANSA" />

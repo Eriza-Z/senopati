@@ -14,7 +14,7 @@ export default function Home() {
         <meta property="og:title" content="Senopati SMANSA" />
         <meta property="og:type" content="website" />
         <meta property="og:description" content="Event yang telah lakukan." />
-        <meta property="og:url" content="https://erizazg.my.id" />
+        <meta property="og:url" content="https://senopati.link" />
         <meta property="og:image" content="http://raw.githubusercontent.com/Eriza-Z/Eriza-Z.github.io/master/Web/Icon/icon.webp" />
         <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/Eriza-Z/Eriza-Z.github.io/master/Web/Icon/icon.webp" />
         <meta property="og:image:type" content="image/webp" />
@@ -26,7 +26,7 @@ export default function Home() {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@eriza_gracia" />
         <meta name="twitter:creator" content="@eriza_gracia" />
-        <meta name="twitter:url" content="https://senopati.erizazg.my.id" />
+        <meta name="twitter:url" content="https://senopati.link" />
         <meta name="twitter:title" content="Senopati SMANSA" />
         <meta name="twitter:description" content="Event yang telah lakukan." />
         <meta name="twitter:image" content="https://raw.githubusercontent.com/Eriza-Z/Eriza-Z.github.io/master/Web/Icon/icon.webp" />
@@ -34,7 +34,7 @@ export default function Home() {
         {/* Apple */}
         <link rel="apple-touch-icon" href="../public/apple-touch-icon.png" />
         {/* Canonical */}
-        <link rel="canonical" href="https://senopati.erizazg.my.id" />
+        <link rel="canonical" href="https://senopati.link" />
         {/* Website Thingy */}
         <title>Senopati SMANSA</title>
         <meta name="keywords" content="Senopati SMANSA" />
@@ -52,7 +52,14 @@ export default function Home() {
       </main>
       <footer className={"tengah bottom-2"}>
         <p className="putih">
-          Created With <a href="https://nextjs.org" className="putih" target={"_blank"} rel="noreferrer noopenner">NextJS</a>, and <a href='https://code.visualstudio.com' target={"_blank"} rel="noreferrer noopenner">VS Code</a><br />
+          Created 
+          Technology Used:<br/>
+          <span className="tengah-absolut">
+            Framework: <a href="https://nextjs.org" className="putih" target={"_blank"} rel="noreferrer noopenner">NextJS</a>, and <a href="https://reactjs.org" className="putih" target={"_blank"} rel="noreferrer noopenner">ReactJS</a>
+          </span>
+          <span className="tengah-absolut">
+            <a href='https://code.visualstudio.com' target={"_blank"} rel="noreferrer noopenner">Visual Studio Code</a><br/>
+          </span>
           Hope You All Have A Good Day<br />
         </p>
       </footer>

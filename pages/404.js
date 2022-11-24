@@ -10,9 +10,9 @@ export default function Home() {
         <meta charSet='UTF-8'/>
         <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
         {/* OpenGraph */}
-        <meta property="og:site_name" content="Not Found - ErZ" />
-        <meta property="og:title" content="Not Found - ErZ" />
-        <meta property="og:url" content="https://erizazg.my.id" />
+        <meta property="og:site_name" content="Not Found - Senopati" />
+        <meta property="og:title" content="Not Found - Senopati" />
+        <meta property="og:url" content="https://senopati.link" />
         <meta property="og:image" content="http://raw.githubusercontent.com/Eriza-Z/Eriza-Z.github.io/master/Web/Icon/icon.webp" />
         <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/Eriza-Z/Eriza-Z.github.io/master/Web/Icon/icon.webp" />
         <meta property="og:image:type" content="image/webp" />
@@ -24,14 +24,14 @@ export default function Home() {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@eriza_gracia" />
         <meta name="twitter:creator" content="@eriza_gracia" />
-        <meta name="twitter:url" content="https://erizazg.my.id" />
-        <meta name="twitter:title" content="Not Found - ErZ" />
+        <meta name="twitter:url" content="https://senopati.link" />
+        <meta name="twitter:title" content="Not Found - Senopati" />
         <meta name="twitter:image" content="https://raw.githubusercontent.com/Eriza-Z/Eriza-Z.github.io/master/Web/Icon/icon.webp" />
         <meta name="twitter:wigets:theme" content="dark" />
         {/* Apple */}
         <link rel="apple-touch-icon" href="../public/apple-touch-icon.png" />
         {/* Canonical */}
-        <link rel="canonical" href="https://erizazg.my.id" />
+        <link rel="canonical" href="https://senopati.link" />
         {/* Website Thingy */}
         <title>Not Found - ErZ</title>
         {/* <meta name="keywords" content="Eriza Zehezkiel, Eriza Z, Eriza Zehezkiel Gracia, EZGS, ezgs" /> */}
