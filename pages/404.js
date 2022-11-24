@@ -47,9 +47,15 @@ export default function Home() {
         </section>
       </main>
       <footer className={"tengah bottom-2"}>
-        <h1 className='mb-4'><strong>Error: 404 Not Found</strong></h1>
-        <p className="putih top-4">
-          Created With <a href="https://nextjs.org" className="putih" target={"_blank"} rel="noreferrer noopenner">NextJS</a>, and <a href='https://code.visualstudio.com' target={"_blank"} rel="noreferrer noopenner">VS Code</a><br />
+        <p className="putih">
+          Created 
+          Technology Used:<br/>
+          <span className="tengah-absolut">
+            Framework: <a href="https://nextjs.org" className="putih" target={"_blank"} rel="noreferrer noopenner">NextJS</a>, and <a href="https://reactjs.org" className="putih" target={"_blank"} rel="noreferrer noopenner">ReactJS</a><br/>
+          </span>
+          <span className="tengah-absolut">
+            Text Editor: <a href='https://code.visualstudio.com' target={"_blank"} rel="noreferrer noopenner">Visual Studio Code</a><br/>
+          </span>
           Hope You All Have A Good Day<br />
         </p>
       </footer>
