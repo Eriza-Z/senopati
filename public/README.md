@@ -1,2 +1,2 @@
 # Senopati
-- Just and archive
+- Just an archive
