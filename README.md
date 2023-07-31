@@ -1,3 +1,2 @@
-# Eriza-Z GitHub Pages Repository
-
-- Made With [NextJS](https://nextjs.org)
+# Senopati
+- Just and archive
