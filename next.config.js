@@ -5,7 +5,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['encrypted-tbn0.gstatic.com'],
+    domains: ['ik.imagekit.io'],
     unoptimized: true,
   },
 }

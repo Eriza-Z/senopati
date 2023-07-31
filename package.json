@@ -1,22 +1,24 @@
 {
-  "name": "gh-pages",
-  "version": "0.1.0",
+  "name": "senopati-link",
+  "version": "1.6.101",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "aos": "^3.0.0-beta.6",
-    "next": "^12.3.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typed.js": "^2.0.12"
+    "next": "^13.4.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.64.1"
   },
   "devDependencies": {
-    "eslint": "8.25.0",
-    "eslint-config-next": "12.3.1"
+    "@types/node": "18.14.0",
+    "@types/react": "18.0.28",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
+    "typescript": "4.9.5"
   }
 }

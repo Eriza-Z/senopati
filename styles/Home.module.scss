@@ -1,0 +1,67 @@
+$irenk: #161d19;
+$tirenk: #000000;
+$ilahi: #e0e0e0;
+$ijo: #347a3d;
+$biru: #050A30;
+$birulagi: #1863D6;
+
+.main {
+  color: #ffffff;
+  font-family: monospace;
+}
+.footer {
+  background-color: $tirenk;
+  color: $ilahi;
+}
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+// Index
+.content {
+  margin: 0;
+  display: grid;
+  // justify-content: center;
+  // align-items: center;
+  place-items: center;
+}
+.button_area {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 500px;
+}
+.a {
+  padding: 25px;
+  margin: 1em 2.4em;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  color: $ilahi;
+  background: $biru;
+  border-radius: 16px;
+  border: #161d19 groove;
+  transition: transform 0.5s ease-in-out 0.125s, background-color 0.5s ease-in-out 0.125s, color 0.5s ease-in-out 0.125s;
+}
+
+.a:hover {
+  transform: translateY(-10px);
+  background-color: $birulagi;
+  color: $ilahi;
+}
+
+@media all and (max-width: 425px) {
+  .button_area .a {
+    width: 325px;
+  }
+}
+
+@media all and (max-width: 375px) {
+  .button_area .a {
+    width: 275px;
+  }
+}
