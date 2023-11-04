@@ -1,2 +1,0 @@
-# Senopati
-- Just an archive

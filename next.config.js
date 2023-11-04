@@ -1,13 +1,11 @@
-/**
- * @type {import('next').NextConfig}
- */
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+    reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['ik.imagekit.io'],
+    domains: ['cdn.discordapp.com', 'mergoreb.sirv.com', 's6.imgcdn.dev'],
     unoptimized: true,
-  },
+    },
 }
 
 module.exports = nextConfig
