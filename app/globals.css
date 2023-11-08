@@ -34,3 +34,30 @@ margin-bottom: 0.5rem;
 margin-top: 1rem;
 margin-bottom: 1rem;
 }
+
+.button_area {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: clamp(250px, 50%, 500px);
+}
+.a {
+  padding: 25px;
+  margin: 1em 2.4em;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  color: #e0e0e0;
+  background: #050A30;
+  border-radius: 16px;
+  border: #161d19 groove;
+  transition: transform 0.5s ease-in-out 0.125s, background-color 0.5s ease-in-out 0.125s, color 0.5s ease-in-out 0.125s;
+}
+
+.a:hover {
+  transform: translateY(-10px) translateX(5px);
+  background-color: #1863D6;
+  color: #e0e0e0;
+}
