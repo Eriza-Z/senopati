@@ -4,9 +4,9 @@ import Footer from '@/components/other/Footer'
 
 export default function link() {
   return (
-    <div>
+    <main>
       <Link/>
       <Footer/>
-    </div>
+    </main>
   );
 }

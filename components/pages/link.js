@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Link() {
   return (
-    <div className={'content flex min-h-screen flex-col items-center pt-8 mx-16'}>
+    <section className={'content flex min-h-screen flex-col items-center justify-between pt-8 mx-16'} id='link-main'>
         <div className="top-picture mb-3">
           <Image
             src="https://ik.imagekit.io/erz/head.jpg?updatedAt=1690815901380"
@@ -30,7 +30,7 @@ function Link() {
           <a href='https://l.instagram.com/?u=https%3A%2F%2Fopen.spotify.com%2Fplaylist%2F5htaEm7mbbMs5DP3y54CAj%3Fsi%3DxLu0GhjqS9-VX-XGi2O3pw%26utm_source%3Dcopy-link&e=AT313TocokaxkrrfI73Y3qD7qsGiLPpNp18Xjqj6OS7E9e_GTrVXwcE7C1aDu6L9Eoa1LcUERxkl7HbMyNBvKSCf59D9w7lLfbwWSFA' className={'a'} rel='noopenner noreferrer'>
             <Image src="https://www.svgrepo.com/show/475684/spotify-color.svg" alt="Spotify Playlist" width={25} height={25} className='justify-center' />Spotify Playlist</a>
         </div>
-      </div>
+      </section>
   )
 }
 
