@@ -26,15 +26,6 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.marmis {
-margin-top: 0.5rem;
-margin-bottom: 0.5rem;
-}
-.marprog {
-margin-top: 1rem;
-margin-bottom: 1rem;
-}
-
 .button_area {
   display: flex;
   flex-direction: column;
