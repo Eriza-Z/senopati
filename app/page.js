@@ -1,10 +1,11 @@
 import Footer from '@/components/other/Footer'
-import Bazar from "@/components/pages/bazar";
+import Link from '@/components/pages/link';
 
 export default function link() {
   return (
     <main>
-      <Bazar/>
+      <Link/>
+      <Footer/>
     </main>
   );
 }
