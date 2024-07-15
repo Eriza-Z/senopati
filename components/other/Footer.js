@@ -5,7 +5,7 @@ function Footer() {
   return (
     <section id='Footer'>
       <p className='content flex items-center justify-center'>
-        Copyright © 2023 Senopati SMANSA Medan
+        Copyright © 2024 Senopati SMANSA Medan
       </p>
     </section>
   );
